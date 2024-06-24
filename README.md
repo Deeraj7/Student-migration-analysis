@@ -1,31 +1,56 @@
+
 # StudentMigration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+This project is part of a Data Visualization project and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
-# Install Node and NPM
+## Installation
 
-Download latest node & npm and install them
+### Install Node and NPM
+Download and install the latest versions of Node.js and npm.
 
-# Install the project
+### Install the Project
+Run the following command to install the project's dependencies:
+```bash
+npm install
+```
 
-Run `npm install` to install the project.
+## Development
 
-## Development server
+### Development Server
+To start a development server, run:
+```bash
+ng serve
+```
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Code Scaffolding
+To generate a new component, run:
+```bash
+ng generate component component-name
+```
+You can also use the following commands to generate other Angular elements:
+```bash
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To build the project, run:
+```bash
+ng build
+```
+The build artifacts will be stored in the `dist/` directory.
 
-# Python
+## Python Visualization
 
-please find the python Altair visulizations code in Assests folder under "Altair Visulization" folder.
+### Altair Visualizations
+The Python code for Altair visualizations can be found in the `Assets` folder under the "Altair Visualization" directory.
 
-- Install "Altair" python library using the below code
+To install the Altair library, use the following command:
+```bash
+pip install altair==5.0.0.rc1
+```
 
-  pip install altair==5.0.0.rc1
+## Contributors
+
+- [Karthik Rachammala](https://github.com/karthikRachamalli1995)
