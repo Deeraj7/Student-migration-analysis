@@ -1,0 +1,2418 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "title": {
+      "fontSize": 25
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "datasets": {
+    "data-73652d990c8da6d2e43ae872bd0aa7b3": [
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 6
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 36
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 52
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 40
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 24
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 27
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 31
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 95
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 52
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 76
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 42
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 30
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 30
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 61
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Male",
+        "value": 39
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 7
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 39
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 55
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 38
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 24
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 106
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 55
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 79
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 50
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 33
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 33
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 68
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 34
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Healthcare",
+        "gender": "Male",
+        "value": 40
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 6
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 38
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 17
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 22
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 75
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 38
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 47
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 25
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 22
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 46
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 26
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Luxury",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 5
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 41
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 19
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 24
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 92
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 40
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 63
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 35
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 49
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 22
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Housing",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 7
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 34
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 46
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 33
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 20
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 27
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 28
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 89
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 47
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 64
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 40
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 27
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 24
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 51
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 26
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 5
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 25
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 38
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 15
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 22
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 71
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 37
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 60
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 35
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 24
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 27
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 47
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Freedom",
+        "gender": "Male",
+        "value": 28
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 9
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 42
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 61
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 42
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 25
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 36
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 33
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 121
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 59
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 84
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 50
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 33
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 33
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 69
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 34
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Employment",
+        "gender": "Male",
+        "value": 42
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 3
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 27
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 14
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 16
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 18
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 55
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 32
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 42
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 13
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 17
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 29
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 17
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 7
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 46
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 30
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 21
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 20
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 86
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 41
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 63
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 0
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 31
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 26
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 44
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 23
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Male",
+        "value": 32
+      }
+    ],
+    "data-c4acfd31301c04248f41cba9be95f0fe": [
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 38
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 16
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 24
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 34
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 33
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 8
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 104
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 64
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 40
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 6
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 37
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 37
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 23
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 38
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 8
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Financial Stability",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 16
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 24
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 47
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 37
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 109
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 76
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 46
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 9
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 25
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 23
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 9
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Healthcare",
+        "gender": "Female",
+        "value": 24
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 16
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 13
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 21
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 22
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 3
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 54
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 38
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 22
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 5
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 15
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 12
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 3
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Luxury",
+        "gender": "Female",
+        "value": 10
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 27
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 13
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 21
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 29
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 32
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 6
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 82
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 55
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 32
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 30
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 33
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Housing",
+        "gender": "Female",
+        "value": 17
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 33
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 12
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 33
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 33
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 88
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 57
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 6
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 31
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 32
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 32
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 6
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Technology & Innovation",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 23
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 10
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 13
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 33
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 25
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 26
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 6
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 79
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 50
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 31
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 27
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 16
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 28
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 6
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Freedom",
+        "gender": "Female",
+        "value": 16
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 42
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 17
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 27
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 52
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 43
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 8
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 121
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 76
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 52
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 8
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 27
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 41
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 26
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 42
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 9
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Employment",
+        "gender": "Female",
+        "value": 26
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 30
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 11
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 16
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 30
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 30
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 86
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 53
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 39
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 31
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 31
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 17
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 31
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 5
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Carrer Change",
+        "gender": "Female",
+        "value": 18
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Bangladesh",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 23
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Bangladesh",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 7
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Brazil",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 13
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Brazil",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 25
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "China",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "China",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 24
+      },
+      {
+        "Education Level": "Master's",
+        "country": "China",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 4
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "India",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 53
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "India",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 40
+      },
+      {
+        "Education Level": "Master's",
+        "country": "India",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 24
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "Iran",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 5
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Mexico",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 9
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Mexico",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 19
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "Pakistan",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Master's",
+        "country": "Pakistan",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 12
+      },
+      {
+        "Education Level": "Bachelor's",
+        "country": "South Korea",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 20
+      },
+      {
+        "Education Level": "Doctorate",
+        "country": "South Korea",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 5
+      },
+      {
+        "Education Level": "Master's",
+        "country": "South Korea",
+        "ebm": "ebm:Travel & Explore",
+        "gender": "Female",
+        "value": 13
+      }
+    ]
+  },
+  "params": [
+    {
+      "bind": {
+        "input": "select",
+        "options": [
+          "Bangladesh",
+          "Brazil",
+          "China",
+          "India",
+          "Iran",
+          "Mexico",
+          "Pakistan",
+          "South Korea"
+        ]
+      },
+      "name": "Select",
+      "select": {
+        "fields": [
+          "country"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_1",
+        "view_2"
+      ]
+    },
+    {
+      "bind": "scales",
+      "name": "param_1",
+      "select": {
+        "encodings": [
+          "x",
+          "y"
+        ],
+        "type": "interval"
+      },
+      "views": [
+        "view_1",
+        "view_2"
+      ]
+    }
+  ],
+  "vconcat": [
+    {
+      "data": {
+        "name": "data-c4acfd31301c04248f41cba9be95f0fe"
+      },
+      "encoding": {
+        "color": {
+          "field": "country",
+          "type": "nominal"
+        },
+        "column": {
+          "field": "ebm",
+          "title": "Expectations",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "ebm",
+            "title": "Expectation",
+            "type": "nominal"
+          },
+          {
+            "field": "value",
+            "title": "Intensity",
+            "type": "quantitative"
+          },
+          {
+            "field": "country",
+            "type": "nominal"
+          },
+          {
+            "field": "gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Education Level",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": -20,
+            "title": "Edu Level"
+          },
+          "field": "Education Level",
+          "type": "nominal"
+        },
+        "y": {
+          "axis": {
+            "title": "Intensity"
+          },
+          "field": "value",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "bar"
+      },
+      "name": "view_1",
+      "title": {
+        "anchor": "middle",
+        "text": "Expectations by Female Students after Migration"
+      },
+      "transform": [
+        {
+          "as": "ebm",
+          "calculate": "replace(datum.ebm, \"ebm:\", \"\")"
+        },
+        {
+          "filter": {
+            "param": "Select"
+          }
+        }
+      ],
+      "width": 100
+    },
+    {
+      "data": {
+        "name": "data-73652d990c8da6d2e43ae872bd0aa7b3"
+      },
+      "encoding": {
+        "color": {
+          "field": "country",
+          "type": "nominal"
+        },
+        "column": {
+          "field": "ebm",
+          "title": "Expectations",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "ebm",
+            "title": "Expectation",
+            "type": "nominal"
+          },
+          {
+            "field": "value",
+            "title": "Intensity",
+            "type": "quantitative"
+          },
+          {
+            "field": "country",
+            "type": "nominal"
+          },
+          {
+            "field": "gender",
+            "type": "nominal"
+          },
+          {
+            "field": "Education Level",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": -20,
+            "title": "Edu Level"
+          },
+          "field": "Education Level",
+          "type": "nominal"
+        },
+        "y": {
+          "axis": {
+            "title": "Intensity"
+          },
+          "field": "value",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "bar"
+      },
+      "name": "view_2",
+      "title": {
+        "anchor": "middle",
+        "text": "Expectations by Male Students after Migration"
+      },
+      "transform": [
+        {
+          "as": "ebm",
+          "calculate": "replace(datum.ebm, \"ebm:\", \"\")"
+        },
+        {
+          "filter": {
+            "param": "Select"
+          }
+        }
+      ],
+      "width": 100
+    }
+  ]
+}

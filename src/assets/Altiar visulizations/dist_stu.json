@@ -1,0 +1,227 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-da1566dcd20b8a49160670529991e100"
+  },
+  "datasets": {
+    "data-da1566dcd20b8a49160670529991e100": [
+      {
+        "Country": "United States",
+        "No of Indian Students": 165918,
+        "Percentage": 37.13498524,
+        "index": 0
+      },
+      {
+        "Country": "Australia",
+        "No of Indian Students": 66886,
+        "Percentage": 14.97010947,
+        "index": 1
+      },
+      {
+        "Country": "Canada",
+        "No of Indian Students": 50000,
+        "Percentage": 11.19076449,
+        "index": 2
+      },
+      {
+        "Country": "New Zealand",
+        "No of Indian Students": 32000,
+        "Percentage": 7.162089271,
+        "index": 3
+      },
+      {
+        "Country": "Bahrain",
+        "No of Indian Students": 27000,
+        "Percentage": 6.043012822,
+        "index": 4
+      },
+      {
+        "Country": "UK(2015-16)",
+        "No of Indian Students": 16715,
+        "Percentage": 3.741072568,
+        "index": 5
+      },
+      {
+        "Country": "China",
+        "No of Indian Students": 16694,
+        "Percentage": 3.736372447,
+        "index": 6
+      },
+      {
+        "Country": "Ukraine",
+        "No of Indian Students": 7963,
+        "Percentage": 1.782241152,
+        "index": 7
+      },
+      {
+        "Country": "Philippines",
+        "No of Indian Students": 6500,
+        "Percentage": 1.454799383,
+        "index": 8
+      },
+      {
+        "Country": "Russian Federation",
+        "No of Indian Students": 6500,
+        "Percentage": 1.454799383,
+        "index": 9
+      },
+      {
+        "Country": "United Arab Emirates(Dubai)",
+        "No of Indian Students": 5500,
+        "Percentage": 1.230984093,
+        "index": 10
+      },
+      {
+        "Country": "France",
+        "No of Indian Students": 5000,
+        "Percentage": 1.119076449,
+        "index": 11
+      },
+      {
+        "Country": "Kyrgyzstan",
+        "No of Indian Students": 4686,
+        "Percentage": 1.048798448,
+        "index": 12
+      },
+      {
+        "Country": "Nepal",
+        "No of Indian Students": 3000,
+        "Percentage": 0.671445869,
+        "index": 13
+      },
+      {
+        "Country": "Poland",
+        "No of Indian Students": 2500,
+        "Percentage": 0.559538224,
+        "index": 14
+      },
+      {
+        "Country": "Kazakhstan",
+        "No of Indian Students": 2400,
+        "Percentage": 0.537156695,
+        "index": 15
+      },
+      {
+        "Country": "Sweden",
+        "No of Indian Students": 2340,
+        "Percentage": 0.523727778,
+        "index": 16
+      },
+      {
+        "Country": "Ireland",
+        "No of Indian Students": 2096,
+        "Percentage": 0.469116847,
+        "index": 17
+      },
+      {
+        "Country": "Cyprus",
+        "No of Indian Students": 1962,
+        "Percentage": 0.439125598,
+        "index": 18
+      },
+      {
+        "Country": "Germany",
+        "No of Indian Students": 1715,
+        "Percentage": 0.383843222,
+        "index": 19
+      },
+      {
+        "Country": "Malaysia",
+        "No of Indian Students": 1493,
+        "Percentage": 0.334156228,
+        "index": 20
+      },
+      {
+        "Country": "Tanzania",
+        "No of Indian Students": 1220,
+        "Percentage": 0.273054653,
+        "index": 21
+      },
+      {
+        "Country": "Iran",
+        "No of Indian Students": 1200,
+        "Percentage": 0.268578348,
+        "index": 22
+      },
+      {
+        "Country": "Italy",
+        "No of Indian Students": 1163,
+        "Percentage": 0.260297182,
+        "index": 23
+      },
+      {
+        "Country": "Georgia",
+        "No of Indian Students": 1100,
+        "Percentage": 0.246196819,
+        "index": 24
+      },
+      {
+        "Country": "Korea (Republic of)",
+        "No of Indian Students": 1022,
+        "Percentage": 0.228739226,
+        "index": 25
+      },
+      {
+        "Country": "Bangladesh",
+        "No of Indian Students": 1000,
+        "Percentage": 0.22381529,
+        "index": 26
+      },
+      {
+        "Country": "Finland",
+        "No of Indian Students": 1000,
+        "Percentage": 0.22381529,
+        "index": 27
+      },
+      {
+        "Country": "Armenia",
+        "No of Indian Students": 900,
+        "Percentage": 0.201433761,
+        "index": 28
+      },
+      {
+        "Country": "Lithuania",
+        "No of Indian Students": 900,
+        "Percentage": 0.201433761,
+        "index": 29
+      },
+      {
+        "Country": "Japan",
+        "No of Indian Students": 879,
+        "Percentage": 0.19673364,
+        "index": 30
+      }
+    ]
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "Country",
+        "type": "nominal"
+      },
+      {
+        "field": "No of Indian Students",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "No of Indian Students",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "Country",
+      "sort": "-x",
+      "type": "ordinal"
+    }
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Number of Indian Students in Different Countries"
+}

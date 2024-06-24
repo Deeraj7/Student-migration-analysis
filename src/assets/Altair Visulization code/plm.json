@@ -1,0 +1,362 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-e770eb15a5e5a5314cd15a8f36cd13fc"
+  },
+  "datasets": {
+    "data-e770eb15a5e5a5314cd15a8f36cd13fc": [
+      {
+        "country": "Bangladesh",
+        "plm": "plm:Education",
+        "value": 152
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:Education",
+        "value": 124
+      },
+      {
+        "country": "China",
+        "plm": "plm:Education",
+        "value": 148
+      },
+      {
+        "country": "India",
+        "plm": "plm:Education",
+        "value": 453
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:Education",
+        "value": 8
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:Education",
+        "value": 136
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:Education",
+        "value": 150
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:Education",
+        "value": 134
+      },
+      {
+        "country": "Bangladesh",
+        "plm": "plm:Healthcare",
+        "value": 145
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:Healthcare",
+        "value": 115
+      },
+      {
+        "country": "China",
+        "plm": "plm:Healthcare",
+        "value": 130
+      },
+      {
+        "country": "India",
+        "plm": "plm:Healthcare",
+        "value": 425
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:Healthcare",
+        "value": 8
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:Healthcare",
+        "value": 122
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:Healthcare",
+        "value": 144
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:Healthcare",
+        "value": 124
+      },
+      {
+        "country": "Bangladesh",
+        "plm": "plm:Economical",
+        "value": 127
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:Economical",
+        "value": 113
+      },
+      {
+        "country": "China",
+        "plm": "plm:Economical",
+        "value": 124
+      },
+      {
+        "country": "India",
+        "plm": "plm:Economical",
+        "value": 389
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:Economical",
+        "value": 6
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:Economical",
+        "value": 119
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:Economical",
+        "value": 137
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:Economical",
+        "value": 121
+      },
+      {
+        "country": "Bangladesh",
+        "plm": "plm:Political",
+        "value": 106
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:Political",
+        "value": 94
+      },
+      {
+        "country": "China",
+        "plm": "plm:Political",
+        "value": 106
+      },
+      {
+        "country": "India",
+        "plm": "plm:Political",
+        "value": 343
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:Political",
+        "value": 7
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:Political",
+        "value": 100
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:Political",
+        "value": 112
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:Political",
+        "value": 99
+      },
+      {
+        "country": "Bangladesh",
+        "plm": "plm:Quality of life",
+        "value": 124
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:Quality of life",
+        "value": 105
+      },
+      {
+        "country": "China",
+        "plm": "plm:Quality of life",
+        "value": 116
+      },
+      {
+        "country": "India",
+        "plm": "plm:Quality of life",
+        "value": 360
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:Quality of life",
+        "value": 7
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:Quality of life",
+        "value": 113
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:Quality of life",
+        "value": 119
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:Quality of life",
+        "value": 109
+      },
+      {
+        "country": "Bangladesh",
+        "plm": "plm:Technology and innovation",
+        "value": 100
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:Technology and innovation",
+        "value": 80
+      },
+      {
+        "country": "China",
+        "plm": "plm:Technology and innovation",
+        "value": 96
+      },
+      {
+        "country": "India",
+        "plm": "plm:Technology and innovation",
+        "value": 308
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:Technology and innovation",
+        "value": 4
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:Technology and innovation",
+        "value": 85
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:Technology and innovation",
+        "value": 104
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:Technology and innovation",
+        "value": 82
+      },
+      {
+        "country": "Bangladesh",
+        "plm": "plm:unemployment",
+        "value": 127
+      },
+      {
+        "country": "Brazil",
+        "plm": "plm:unemployment",
+        "value": 102
+      },
+      {
+        "country": "China",
+        "plm": "plm:unemployment",
+        "value": 127
+      },
+      {
+        "country": "India",
+        "plm": "plm:unemployment",
+        "value": 380
+      },
+      {
+        "country": "Iran",
+        "plm": "plm:unemployment",
+        "value": 8
+      },
+      {
+        "country": "Mexico",
+        "plm": "plm:unemployment",
+        "value": 106
+      },
+      {
+        "country": "Pakistan",
+        "plm": "plm:unemployment",
+        "value": 125
+      },
+      {
+        "country": "South Korea",
+        "plm": "plm:unemployment",
+        "value": 115
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "condition": {
+        "field": "country",
+        "param": "param_1",
+        "type": "nominal"
+      },
+      "value": "lightgray"
+    },
+    "tooltip": [
+      {
+        "field": "plm",
+        "title": "problem",
+        "type": "nominal"
+      },
+      {
+        "field": "value",
+        "title": "Intensity",
+        "type": "quantitative"
+      },
+      {
+        "field": "country",
+        "type": "nominal"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelAngle": 0,
+        "title": "problems leading migration"
+      },
+      "field": "plm",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {
+        "title": "Intensity"
+      },
+      "field": "value",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "size": 70,
+    "type": "bar"
+  },
+  "params": [
+    {
+      "bind": "legend",
+      "name": "param_1",
+      "select": {
+        "fields": [
+          "country"
+        ],
+        "type": "point"
+      }
+    }
+  ],
+  "title": "Problems Leading Migration of Students",
+  "transform": [
+    {
+      "as": "plm",
+      "calculate": "replace(datum.plm, \"plm:\", \"\")"
+    }
+  ],
+  "width": 900
+}

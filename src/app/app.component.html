@@ -1,0 +1,64 @@
+<div>
+  <h1 align="center"> Student Migration Data Visualizations </h1>
+</div>
+
+<p-button *ngIf="!menu" class="back-button" label="Go to Menu" (click)="menu = !menu"></p-button>
+<div *ngIf="!menu" class="graph-container" #container>
+</div>
+
+<div class="card-row" *ngIf="menu">
+  <div class="card" (click)="displayVisulization('plm')">
+    <img src="../assets/plm.jpeg"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">Problems leading Migration</h3>
+    </div>
+  </div>
+  <div class="card" (click)="displayVisulization('pfam')">
+    <img src="../assets/pfam.jpeg"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">Problems faced after Migration</h3>
+    </div>
+  </div>
+  <div class="card" (click)="displayVisulization('ebm')">
+    <img src="../assets/edm.png"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">Expectations by Migrators</h3>
+    </div>
+  </div>
+  <div class="card" (click)="displayVisulization('dist_stu')">
+    <img src="../assets/dist_stu.webp"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">Indian Student Migration across the globe</h3>
+    </div>
+  </div>
+  <div class="card" (click)="displayVisulization('gdp_loss')">
+    <img src="../assets/gdp_loss.jpeg"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">GDP Loss for Home Country</h3>
+    </div>
+  </div>
+  <div class="card" (click)="displayVisulization('willingness')">
+    <img src="../assets/willingness.jpeg"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">Willingness of Migrators to move back to home country</h3>
+    </div>
+  </div>
+  <div class="card"
+       (click)="displayVisulization('inflation')">
+    <img src="../assets/inflation.jpg"
+         alt="Card image">
+    <div class="card-text">
+      <h3 class="card-title">GDP VS Inflation</h3>
+    </div>
+  </div>
+</div>
+
+
+
+

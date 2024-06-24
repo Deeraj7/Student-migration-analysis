@@ -1,0 +1,197 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-2f9c234c02b3186b41aee426fe533ec4"
+  },
+  "datasets": {
+    "data-2f9c234c02b3186b41aee426fe533ec4": [
+      {
+        "country": "India",
+        "current_gdp": 3180000,
+        "current_inflation": 7.79,
+        "loss_gdp": 7.79,
+        "projected_gdp": 3179992,
+        "projected_inflation": 8.99
+      },
+      {
+        "country": "Bangladesh",
+        "current_gdp": 416260,
+        "current_inflation": 8.78,
+        "loss_gdp": 2.25,
+        "projected_gdp": 416257,
+        "projected_inflation": 10.0
+      },
+      {
+        "country": "China",
+        "current_gdp": 17730000,
+        "current_inflation": 0.78,
+        "loss_gdp": 1.99,
+        "projected_gdp": 17729998,
+        "projected_inflation": 1.98
+      },
+      {
+        "country": "Brazil",
+        "current_gdp": 1610000,
+        "current_inflation": 4.7,
+        "loss_gdp": 2.77,
+        "projected_gdp": 1609997,
+        "projected_inflation": 5.9
+      },
+      {
+        "country": "Iran",
+        "current_gdp": 359710,
+        "current_inflation": 43.39,
+        "loss_gdp": 0.1,
+        "projected_gdp": 359709,
+        "projected_inflation": 45.0
+      },
+      {
+        "country": "Mexico",
+        "current_gdp": 1270000,
+        "current_inflation": 19.2,
+        "loss_gdp": 2.12,
+        "projected_gdp": 1269997,
+        "projected_inflation": 20.4
+      },
+      {
+        "country": "Pakistan",
+        "current_gdp": 348260,
+        "current_inflation": 9.5,
+        "loss_gdp": 2.26,
+        "projected_gdp": 348257,
+        "projected_inflation": 10.7
+      },
+      {
+        "country": "South Korea",
+        "current_gdp": 1810000,
+        "current_inflation": 7.8,
+        "loss_gdp": 2.502,
+        "projected_gdp": 1809997,
+        "projected_inflation": 9.0
+      }
+    ]
+  },
+  "params": [
+    {
+      "name": "param_1",
+      "select": {
+        "resolve": "global",
+        "type": "interval"
+      },
+      "views": [
+        "view_1",
+        "view_2"
+      ]
+    }
+  ],
+  "vconcat": [
+    {
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "country",
+            "param": "param_1",
+            "type": "nominal"
+          },
+          "value": "gray"
+        },
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal"
+          },
+          {
+            "field": "current_gdp",
+            "title": "Current GDP",
+            "type": "quantitative"
+          },
+          {
+            "field": "projected_gdp",
+            "title": "Projected GDP",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "title": "Current GDP in USD"
+          },
+          "field": "current_gdp",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "projected_gdp",
+          "title": "Projected GDP in USD",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "type": "circle"
+      },
+      "name": "view_1",
+      "title": {
+        "anchor": "middle",
+        "text": "Current vs Projected GDP of Countries"
+      },
+      "width": 800
+    },
+    {
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "country",
+            "param": "param_1",
+            "type": "nominal"
+          },
+          "value": "gray"
+        },
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal"
+          },
+          {
+            "field": "current_inflation",
+            "title": "Current Inflation",
+            "type": "quantitative"
+          },
+          {
+            "field": "projected_inflation",
+            "title": "Projected Inflation",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "title": "Current Inflation"
+          },
+          "field": "current_inflation",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "projected_inflation",
+          "title": "Projected Inflation",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "type": "circle"
+      },
+      "name": "view_2",
+      "title": {
+        "anchor": "middle",
+        "text": "Current and Projected Inflation of Countries"
+      },
+      "width": 800
+    }
+  ]
+}

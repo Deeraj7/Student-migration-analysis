@@ -1,0 +1,647 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "legend": {
+      "labelAlign": "left",
+      "offset": -150,
+      "orient": "top-right",
+      "titleAlign": "left"
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-ea3b25843c99bb6582c07647ff7aa804"
+  },
+  "datasets": {
+    "data-ea3b25843c99bb6582c07647ff7aa804": [
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 108
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 90
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 94
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 301
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 6
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 81
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 102
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Home Sickness",
+        "problem": "Home Sickness",
+        "value": 91
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 144
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 112
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 132
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 412
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 8
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 111
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 147
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:New Culture",
+        "problem": "New Culture",
+        "value": 122
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 126
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 113
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 126
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 390
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 5
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 111
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 131
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Housing",
+        "problem": "Housing",
+        "value": 123
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 148
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 125
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 140
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 448
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 8
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 130
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 151
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Expenses",
+        "problem": "Expenses",
+        "value": 130
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 131
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 114
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 125
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 400
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 5
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 120
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 123
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Language Barrier",
+        "problem": "Language Barrier",
+        "value": 113
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 144
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 121
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 129
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 417
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 8
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 128
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 133
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Social Life",
+        "problem": "Social Life",
+        "value": 125
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 111
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 97
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 99
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 326
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 7
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 102
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 105
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Loneliness",
+        "problem": "Loneliness",
+        "value": 98
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 99
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 82
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 94
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 295
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 5
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 95
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 101
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Climate",
+        "problem": "Climate",
+        "value": 86
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 89
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 71
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 73
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 239
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 5
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 73
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 81
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Discrimination",
+        "problem": "Discrimination",
+        "value": 64
+      },
+      {
+        "country": "Bangladesh",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 107
+      },
+      {
+        "country": "Brazil",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 96
+      },
+      {
+        "country": "China",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 109
+      },
+      {
+        "country": "India",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 337
+      },
+      {
+        "country": "Iran",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 5
+      },
+      {
+        "country": "Mexico",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 106
+      },
+      {
+        "country": "Pakistan",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 113
+      },
+      {
+        "country": "South Korea",
+        "pfam": "pfam:Transportation",
+        "problem": "Transportation",
+        "value": 102
+      }
+    ]
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "problem",
+          "legend": {
+            "title": "Problems"
+          },
+          "type": "nominal"
+        },
+        "radius": {
+          "field": "value",
+          "scale": {
+            "rangeMin": 20,
+            "type": "sqrt",
+            "zero": true
+          },
+          "title": "Intensity",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "pfam",
+          "type": "nominal"
+        },
+        "theta": {
+          "field": "value",
+          "stack": true,
+          "title": "Intensity",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "problem",
+            "type": "nominal"
+          },
+          {
+            "field": "value",
+            "type": "quantitative"
+          },
+          {
+            "field": "country",
+            "type": "nominal"
+          }
+        ]
+      },
+      "mark": {
+        "innerRadius": 5,
+        "stroke": "#fff",
+        "type": "arc"
+      },
+      "name": "view_1",
+      "transform": [
+        {
+          "filter": {
+            "param": "Select"
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "problem",
+          "legend": {
+            "title": "Problems"
+          },
+          "type": "nominal"
+        },
+        "radius": {
+          "field": "value",
+          "scale": {
+            "rangeMin": 20,
+            "type": "sqrt",
+            "zero": true
+          },
+          "title": "Intensity",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "problem",
+          "type": "nominal"
+        },
+        "theta": {
+          "field": "value",
+          "stack": true,
+          "title": "Intensity",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "problem",
+            "type": "nominal"
+          },
+          {
+            "field": "value",
+            "type": "quantitative"
+          },
+          {
+            "field": "country",
+            "type": "nominal"
+          }
+        ]
+      },
+      "mark": {
+        "radiusOffset": 50,
+        "type": "text"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "Select"
+          }
+        }
+      ]
+    }
+  ],
+  "params": [
+    {
+      "bind": {
+        "input": "select",
+        "options": [
+          "Bangladesh",
+          "Brazil",
+          "China",
+          "India",
+          "Iran",
+          "Mexico",
+          "Pakistan",
+          "South Korea"
+        ]
+      },
+      "name": "Select",
+      "select": {
+        "fields": [
+          "country"
+        ],
+        "type": "point"
+      },
+      "value": "India",
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "title": "Problems faced by Students after migration"
+}
